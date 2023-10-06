@@ -2,9 +2,9 @@
 
 return [
     'database' => [
-       'name' => 'id20152731_khar',
-        'username' => 'id20152731_alhassanmm',
-        'password' => 'PG7]!*i\JAg_bM6J',
+       'name' => 'test',
+        'username' => 'root',
+        'password' => '',
         'connection' => 'mysql:host=localhost',
         'options' => [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION

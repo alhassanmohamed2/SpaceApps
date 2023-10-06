@@ -1,12 +1,17 @@
 <?php
 
 namespace App\Core\Database;
-
 use Exception;
 use PDO;
 
 class QueryBuilder
 {
+
+     // foreach (App::get('tables') as $name => $table) {
+            //     App::get('database')->create_table($name, $table);
+            // }
+       
+
     /**
      * The PDO instance.
      *
@@ -29,6 +34,8 @@ class QueryBuilder
      *
      * @param string $table
      */
+    
+   
     public function selectAll($table, $range = [], $conditions = [])
     {
         $where = '';
